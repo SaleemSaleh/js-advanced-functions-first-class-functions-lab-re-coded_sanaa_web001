@@ -16,5 +16,6 @@ function createFareMultiplier(mul) {
   }
 }
 
-const fareDoubler = selectingDrivers(2);
-const fareTriple = selectingDrivers(3);
+
+const fareDoubler = createFareMultiplier(2);
+const fareTriple = createFareMultiplier(3);
